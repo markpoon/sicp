@@ -59,7 +59,12 @@
 
 (define (midpoint-segment segment)
   (point (/ (- (x-point (start-segment segment))
-               (x-point (end-segment segment))) 2)
+               (x-point (end-segment segment))) 2.0)
          (/ (- (y-point (start-segment segment))
-               (y-point (end-segment segment))) 2)))
+               (y-point (end-segment segment))) 2.0)))
 
+; 2.3 make rectangles, comput the perimeter and area of a given rectangle
+; make another representation that can use the same perimeter and area procedures
+
+
+;
